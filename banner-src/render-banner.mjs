@@ -77,8 +77,8 @@ function frameSvg(frame, dark, staticText=false) {
     ${frame>=41?'<circle cx="728" cy="186" r="2" fill="'+accent+'"/><text x="740" y="190" font-family="&quot;SVN-Coder&apos;s Crux&quot;,monospace" font-size="16" fill="'+muted+'">OPENING XKCD...</text>':''}
   </g>`;
   const comic=`<g opacity="${comicAlpha.toFixed(3)}">
-    <image x="764" y="40" width="157" height="179" preserveAspectRatio="xMidYMid meet" href="data:image/png;base64,${comicData}"/>
-    <text x="843" y="231" text-anchor="middle" font-family="&quot;SVN-Coder&apos;s Crux&quot;,monospace" font-size="14" fill="${muted}">xkcd.com/353 · Randall Munroe</text>
+    <image x="766" y="40" width="154" height="175" preserveAspectRatio="xMidYMid meet" href="data:image/png;base64,${comicData}"/>
+    <text x="843" y="225" text-anchor="middle" font-family="&quot;SVN-Coder&apos;s Crux&quot;,monospace" font-size="14" fill="${muted}">xkcd.com/353 · Randall Munroe</text>
   </g>`;
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}">
 <defs><linearGradient id="wave" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0875c5"/><stop offset="1" stop-color="#22d3ee"/></linearGradient><clipPath id="clip"><rect width="1000" height="270" rx="18"/></clipPath></defs>
