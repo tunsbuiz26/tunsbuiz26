@@ -1,8 +1,8 @@
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/header-dark.svg" />
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/header-light.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.gif" />
-  <img src="assets/header-light.gif" width="100%" alt="Nguyen Bui Anh Tuan — AI Software Engineer. Animated blue waves and a rotating 3D network." />
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/header-simulation-dark.png" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/header-simulation-light.png" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-simulation-dark.gif" />
+  <img src="assets/header-simulation-light.gif" width="100%" alt="Nguyen Bui Anh Tuan — AI Software Engineer. Simulation-themed banner with a typewriter introduction, blue waves, and a rotating 3D network." />
 </picture>
 
 <p align="center">

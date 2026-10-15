@@ -1,3 +1,4 @@
 node_modules/
 .frames/
+.font-cache/
 __pycache__/
