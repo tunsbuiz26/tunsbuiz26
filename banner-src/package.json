@@ -1,0 +1,12 @@
+{
+  "name": "tunsbuiz26-profile-banner",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "frames": "node render-banner.mjs"
+  },
+  "devDependencies": {
+    "three": "0.170.0",
+    "sharp": "0.35.5"
+  }
+}

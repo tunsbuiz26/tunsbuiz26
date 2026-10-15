@@ -1,6 +1,8 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg" />
-  <img src="assets/header-light.svg" width="100%" alt="Nguyen Bui Anh Tuan — AI Software Engineer" />
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/header-dark.svg" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/header-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.gif" />
+  <img src="assets/header-light.gif" width="100%" alt="Nguyen Bui Anh Tuan — AI Software Engineer. Animated blue waves and a rotating 3D network." />
 </picture>
 
 <p align="center">
