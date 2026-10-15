@@ -4,9 +4,9 @@ import shutil
 from PIL import Image, ImageChops
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--frames-dir',type=Path,default=Path(__file__).resolve().parent/'.frames-python')
+parser.add_argument('--frames-dir',type=Path,default=Path(__file__).resolve().parent/'.frames-crux')
 parser.add_argument('--out-dir',type=Path,default=Path(__file__).resolve().parent.parent/'assets')
-parser.add_argument('--prefix',default='header-python')
+parser.add_argument('--prefix',default='header-crux-network')
 args=parser.parse_args()
 args.out_dir.mkdir(parents=True,exist_ok=True)
 

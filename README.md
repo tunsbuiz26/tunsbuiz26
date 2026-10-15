@@ -1,8 +1,8 @@
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/header-python-dark.png" />
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/header-python-light.png" />
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-python-dark.gif" />
-  <img src="assets/header-python-light.gif" width="100%" alt="Nguyen Bui Anh Tuan — AI Software Engineer. Terminal-style banner with a fast typewriter introduction, blue waves, and an animated Python logo." />
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/header-crux-network-dark.png" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/header-crux-network-light.png" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-crux-network-dark.gif" />
+  <img src="assets/header-crux-network-light.gif" width="100%" alt="Nguyen Bui Anh Tuan — AI Software Engineer. Pixel-style banner with a fast typewriter introduction, blue waves, and a rotating 3D network." />
 </picture>
 
 <p align="center">

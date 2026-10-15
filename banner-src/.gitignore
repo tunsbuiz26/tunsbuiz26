@@ -3,3 +3,5 @@ node_modules/
 .font-cache/
 __pycache__/
 .frames-python/
+.frames-crux/
+.local-fonts/

@@ -1,13 +1,13 @@
-# Python terminal profile banner
+# Pixel simulation profile banner
 
-The banner uses JetBrains Mono for a terminal appearance and a blue/yellow Python emblem on the right. Three.js transforms animate the emblem; frames are rendered through SVG and Sharp, then encoded with Pillow. GitHub displays the resulting GIF without running JavaScript.
+The banner uses SVN-Coder's Crux pixel lettering and the original rotating Three.js network. The network is projected to SVG and rasterized with Sharp; Pillow encodes the GIFs. GitHub does not need to run JavaScript.
 
 - 1000 × 270 pixels, 90 frames, six-second loop.
-- The name, role, and description finish typing in about 2.2 seconds, then remain visible.
-- Light and dark versions; reduced-motion preferences select fully typed static PNGs.
+- The typewriter sequence finishes in about 2.2 seconds, followed by a readable hold.
+- Light and dark versions; reduced-motion preferences use fully typed static PNGs.
 - Contact links remain separate and clickable.
 
-To regenerate from this directory:
+To regenerate, download SVN-Coder's Crux from the publisher and place the OTF file in `banner-src/.local-fonts/`. The font binary is not redistributed in this repository. Publisher and font use terms: https://www.svnfont.com/viet-hoa-svn-codes-crux/ (free for personal use).
 
 ```sh
 npm install
@@ -16,6 +16,6 @@ npm run frames
 python encode-banner.py
 ```
 
-Output: `../assets/header-python-dark.gif`, `../assets/header-python-light.gif`, and matching PNGs.
+Output: `../assets/header-crux-network-dark.gif`, `../assets/header-crux-network-light.gif`, and matching PNGs.
 
-JetBrains Mono is bundled under the SIL Open Font License (`fonts/OFL-JetBrainsMono.txt`). Python artwork comes from the existing Devicon asset (`../assets/tool-python.svg`, license in `../assets/DEVICON_LICENSE.txt`). Three.js r170 uses the included MIT license. Sharp and Pillow are build dependencies only.
+Three.js r170 uses the included MIT license. Sharp and Pillow are build dependencies only.
