@@ -1,9 +1,11 @@
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/header-crux-network-dark.png" />
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/header-crux-network-light.png" />
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-crux-network-dark.gif" />
-  <img src="assets/header-crux-network-light.gif" width="100%" alt="Nguyen Bui Anh Tuan — AI Software Engineer. Pixel-style banner with a fast typewriter introduction, blue waves, and a rotating 3D network." />
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/header-python-story-dark.png" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/header-python-story-light.png" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-python-story-dark.gif" />
+  <img src="assets/header-python-story-light.gif" width="100%" alt="Nguyen Bui Anh Tuan — AI Software Engineer. Pixel-style banner: a Python console types Hello, world! and import antigravity, then reveals the Python comic by Randall Munroe (xkcd.com/353)." />
 </picture>
+
+<sub>Banner comic: <a href="https://xkcd.com/353/">Python — Randall Munroe / xkcd #353</a> · <a href="https://creativecommons.org/licenses/by-nc/2.5/">CC BY-NC 2.5</a></sub>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/nguy%E1%BB%85n-b%C3%B9i-anh-tu%E1%BA%A5n-936ba7443/"><img src="assets/contact-linkedin.svg" height="34" alt="LinkedIn" /></a>

@@ -1,13 +1,14 @@
-# Pixel simulation profile banner
+# Python console and comic profile banner
 
-The banner uses SVN-Coder's Crux pixel lettering and the original rotating Three.js network. The network is projected to SVG and rasterized with Sharp; Pillow encodes the GIFs. GitHub does not need to run JavaScript.
+SVN-Coder's Crux pixel lettering is retained. The right panel types `print("Hello, world!")`, displays its output, then types `import antigravity`. After a brief pause, the console fades into the user's supplied Python comic. The image is embedded unchanged, fitted without cropping.
 
-- 1000 × 270 pixels, 90 frames, six-second loop.
-- The typewriter sequence finishes in about 2.2 seconds, followed by a readable hold.
-- Light and dark versions; reduced-motion preferences use fully typed static PNGs.
+- 1000 × 270 pixels, 150 frames, ten-second loop.
+- The left introduction completes in about 2.2 seconds.
+- The right console crossfades to the full comic around 3.6–4 seconds; the comic remains visible for six seconds.
+- Light and dark GIFs; reduced-motion PNGs show the complete introduction and comic.
 - Contact links remain separate and clickable.
 
-To regenerate, download SVN-Coder's Crux from the publisher and place the OTF file in `banner-src/.local-fonts/`. The font binary is not redistributed in this repository. Publisher and font use terms: https://www.svnfont.com/viet-hoa-svn-codes-crux/ (free for personal use).
+To regenerate, download SVN-Coder's Crux from https://www.svnfont.com/viet-hoa-svn-codes-crux/ and put the OTF file in `.local-fonts/`. The font binary is not redistributed here.
 
 ```sh
 npm install
@@ -16,6 +17,8 @@ npm run frames
 python encode-banner.py
 ```
 
-Output: `../assets/header-crux-network-dark.gif`, `../assets/header-crux-network-light.gif`, and matching PNGs.
+Output: `../assets/header-python-story-{dark,light}.{gif,png}`.
 
-Three.js r170 uses the included MIT license. Sharp and Pillow are build dependencies only.
+Comic: [Python, xkcd #353](https://xkcd.com/353/) by Randall Munroe, [CC BY-NC 2.5](https://creativecommons.org/licenses/by-nc/2.5/). The source PNG was provided by the user. The credit is visible in the banner and linked from the profile README. Python's `antigravity` module opens this comic: https://github.com/python/cpython/blob/main/Lib/antigravity.py.
+
+Sharp and Pillow are build dependencies only. GitHub displays the resulting assets without running JavaScript.
