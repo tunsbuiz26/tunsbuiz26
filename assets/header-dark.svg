@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="270" viewBox="0 0 1000 270" role="img" aria-labelledby="title desc">
+<title id="title">Nguyen Bui Anh Tuan — AI Software Engineer</title><desc id="desc">AI applications, backend services, and thoughtful interfaces. Hanoi, Vietnam.</desc>
+<defs><linearGradient id="wave" x1="0" x2="1"><stop stop-color="#0875c5"/><stop offset="1" stop-color="#22d3ee"/></linearGradient></defs>
+<rect width="1000" height="270" rx="18" fill="#0d1117"/>
+<g fill="none" stroke="#0875c5" opacity=".22"><path d="M750 50L870 90L925 40M750 50L730 155L870 90L910 180L730 155M870 90L950 145L910 180" stroke-width="1.5"/>
+<circle cx="750" cy="50" r="8"/><circle cx="870" cy="90" r="12"/><circle cx="925" cy="40" r="6"/><circle cx="730" cy="155" r="9"/><circle cx="950" cy="145" r="7"/><circle cx="910" cy="180" r="10"/></g>
+<text x="44" y="48" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="3" fill="#38bdf8">HELLO, I'M TUAN</text>
+<text x="44" y="103" font-family="Arial,sans-serif" font-size="38" font-weight="700" fill="#f0f6fc">Nguyen Bui Anh Tuan</text>
+<text x="44" y="143" font-family="Arial,sans-serif" font-size="23" fill="#38bdf8">AI Software Engineer</text>
+<text x="44" y="179" font-family="Arial,sans-serif" font-size="15" fill="#a5b4cf">AI applications · Backend services · API integration</text>
+<path d="M0 224C190 184 290 265 480 231S800 200 1000 237V270H0Z" fill="url(#wave)" opacity=".16"/>
+<path d="M0 247C200 213 330 283 550 246S830 235 1000 253V270H0Z" fill="url(#wave)" opacity=".8"/>
+</svg>

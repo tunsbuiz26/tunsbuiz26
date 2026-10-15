@@ -1,0 +1,40 @@
+name: Refresh public profile statistics
+
+on:
+  schedule:
+    - cron: '17 1 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/update_stats.py
+      - .github/workflows/update-profile.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-statistics
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Generate statistics from the GitHub public API
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PROFILE_USERNAME: tunsbuiz26
+        run: python3 scripts/update_stats.py
+      - name: Commit updated cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats-*.svg assets/languages-*.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: refresh public profile statistics"
+            git push
+          fi
