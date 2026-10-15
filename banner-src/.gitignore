@@ -2,3 +2,4 @@ node_modules/
 .frames/
 .font-cache/
 __pycache__/
+.frames-python/

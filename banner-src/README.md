@@ -1,14 +1,13 @@
-# Simulation profile banner
+# Python terminal profile banner
 
-The banner uses a Three.js scene with a rotating icosahedral network, a simulation interface, and a typewriter introduction. Each frame is projected to SVG and rasterized with Sharp; Pillow encodes the frames into GIFs. This is an offline Three.js animation, not live JavaScript inside the GitHub README.
+The banner uses JetBrains Mono for a terminal appearance and a blue/yellow Python emblem on the right. Three.js transforms animate the emblem; frames are rendered through SVG and Sharp, then encoded with Pillow. GitHub displays the resulting GIF without running JavaScript.
 
-- 1000 × 270 pixels, 150 frames, ten-second loop.
-- Inter font, bundled under the SIL Open Font License in `fonts/`.
-- Name, role, and description appear in sequence, then remain fully visible for several seconds.
-- Light and dark versions. GIFs are embedded with a `picture` element; reduced-motion preferences select fully typed PNGs instead.
-- Contact links remain separate from the animation so they stay clickable.
+- 1000 × 270 pixels, 90 frames, six-second loop.
+- The name, role, and description finish typing in about 2.2 seconds, then remain visible.
+- Light and dark versions; reduced-motion preferences select fully typed static PNGs.
+- Contact links remain separate and clickable.
 
-To regenerate from this directory (Node.js and Python required):
+To regenerate from this directory:
 
 ```sh
 npm install
@@ -17,6 +16,6 @@ npm run frames
 python encode-banner.py
 ```
 
-Output files: `../assets/header-simulation-dark.gif`, `../assets/header-simulation-light.gif`, and matching static PNGs.
+Output: `../assets/header-python-dark.gif`, `../assets/header-python-light.gif`, and matching PNGs.
 
-Three.js: r170, MIT license (included). Inter: SIL Open Font License (included). Sharp and Pillow are build dependencies only. Generated assets do not load scripts, fonts, or third-party services at runtime.
+JetBrains Mono is bundled under the SIL Open Font License (`fonts/OFL-JetBrainsMono.txt`). Python artwork comes from the existing Devicon asset (`../assets/tool-python.svg`, license in `../assets/DEVICON_LICENSE.txt`). Three.js r170 uses the included MIT license. Sharp and Pillow are build dependencies only.
