@@ -1,8 +1,8 @@
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/header-python-story-dark.png" />
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/header-python-story-light.png" />
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-python-story-dark.gif" />
-  <img src="assets/header-python-story-light.gif" width="100%" alt="Nguyen Bui Anh Tuan — AI Software Engineer. Pixel-style banner: a Python console types Hello, world! and import antigravity, then reveals the Python comic by Randall Munroe (xkcd.com/353)." />
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="assets/header-python-story-tall-dark.png" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/header-python-story-tall-light.png" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-python-story-tall-dark.gif" />
+  <img src="assets/header-python-story-tall-light.gif" width="100%" alt="Nguyen Bui Anh Tuan — AI Software Engineer. Pixel-style banner: a Python console types Hello, world! and import antigravity, then reveals the Python comic by Randall Munroe (xkcd.com/353)." />
 </picture>
 
 <sub>Banner comic: <a href="https://xkcd.com/353/">Python — Randall Munroe / xkcd #353</a> · <a href="https://creativecommons.org/licenses/by-nc/2.5/">CC BY-NC 2.5</a></sub>
